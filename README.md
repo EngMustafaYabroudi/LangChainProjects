@@ -7,4 +7,7 @@ This project uses the Streamlit library to create an interactive web interface t
 This project creates a web application using the Streamlit library that leverages Langchain to interact with the Groq and LLAMA2 APIs for document retrieval and question answering.
 ## RAG : 
 This project sets up a pipeline to process a PDF document, split its content into chunks, embed these chunks using a specific model, and then store and query these embeddings using a FAISS vector database.
+## Agents : 
+This project creates an advanced search system by integrating various components from the Langchain library. It handles queries across multiple sources, including web documents and Arxiv research papers. 
+
 
