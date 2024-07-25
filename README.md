@@ -9,5 +9,7 @@ This project creates a web application using the Streamlit library that leverage
 This project sets up a pipeline to process a PDF document, split its content into chunks, embed these chunks using a specific model, and then store and query these embeddings using a FAISS vector database.
 ## Agents : 
 This project creates an advanced search system by integrating various components from the Langchain library. It handles queries across multiple sources, including web documents and Arxiv research papers. 
+## Chain : 
+The project aims to build an advanced question-answering system using PDF document content. It starts by loading and splitting the documents into smaller chunks, then converting these chunks into numerical embeddings and storing them in a FAISS database. A sophisticated language model (LLAMA3) is used to answer questions based on the retrieved context. The language model is guided by a custom prompt template to ensure accurate responses based on the retrieved information.
 
 
